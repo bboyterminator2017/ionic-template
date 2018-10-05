@@ -1,0 +1,7 @@
+{
+  "name": "aulaionic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
