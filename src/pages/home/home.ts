@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, IonicPage } from 'ionic-angular';
+import { NavController, IonicPage } from 'ionic-angular/umd';
 @IonicPage()
 @Component({
   selector: 'page-home',
@@ -11,9 +11,6 @@ export class HomePage {
 
   }
   login(){
-    this.navCtrl.setRoot('CategoriasPage');
-  }
-  login2(){
-    this.navCtrl.push('CategoriasPage');
+    this.navCtrl.setRoot('NoticiasPage');
   }
 }
